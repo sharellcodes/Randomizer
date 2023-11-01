@@ -11,3 +11,5 @@ There are a few things I would do differently if I were to come back to this pro
 - I would address the run-time warnings that come up (`The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 11.0 to 16.1.99.`).
 - I can’t really depend on segues because not all of the storyboards have buttons. The ones that do have segues aren’t necessarily going to a specific storyboard - it depends on different variables. So I utilized `self.present()`.
 - I would instead try to use `self.navigationController?.pushViewController()` instead. I would do this to be able to move back and forth between the view controllers easier.
+- Since the accuracy of the UI wasn't my focus, I didn't make sure it was perfect. I would put a little more effort into making sure the
+  constraints are good.
