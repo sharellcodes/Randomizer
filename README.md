@@ -4,7 +4,33 @@
 To return a random popular YouTube video for the user, or a random restaurant from Yelp.
 
 
-## How To Use
+## How It Works
+### If you want a random restaurant
+1. Click the “Restaurants” button
+2. Enter a valid location
+   - If it contains invalid characters, you will receive an alert letting you know to enter a location without the characters.
+   - If you receive any other error from the Yelp server, you will receive an alert that explains the error. You will then need to restart the app to try again.
+3. Once the location is presented to you
+   - you can go to the Yelp page by clicking the photo of the restaurant, name of the restaurant, or the address of the restaurant.
+   - You can click the “Find another restaurant” button if you’d like to find another restaurant. You would repeat the process of entering a valid location.
+   - You can also click the “Find a Youtube Video Instead” if you’d like to find a YouTube video instead. You would need to sign in if you haven’t already, or if
+     your auth token wasn’t stored for any other reason. Otherwise, you’ll be presented with a video.
+
+### If you want a random YouTube video
+1. Click the “Youtube Video” button
+2. You will likely need to sign in at this point, as you didn’t already sign in before.
+   - If you sign in with an email that isn’t already authorized to use the app, you will receive this message (see How to Use Randomizer). You can press Cancel. You will then receive an alert saying that you canceled the Sign-in. You can press OK, and try signing in again with a proper account if you have one.
+   - If you cancel the sign in, you will receive an alert saying that you canceled the Sign-in. You can press OK, and try signing in again
+3. Once the video is presented to you
+   - You can go to the YouTube video page by clicking the video’s thumbnail, clicking the name of the video, or clicking the channel name.
+   - You can find another video by clicking “Find Another Video”. You should be able to immediately get presented with a new video, as you’ve already signed in. If you receive an error along the lines of “you haven’t been authorized”, please restart the app.
+   - You can find a restaurant instead by clicking the “Find a Restaurant Instead” button.
+
+### If you don’t have a preference of a YouTube video or restaurant
+If you don’t have a preference of a YouTube video or restaurant, click the “Literally Anything” button. Follow the applicable steps based on the storyboard presented to you.
+
+
+## If You Want to Use the App
 **Because this can get a little complicated to set up, I suggest just looking at my code and [demo video](). I am unable to add test users directly to my Google Cloud project because of quota reasons.**
 
 If you want to use this app, there are a few things you’ll need to do.
@@ -42,11 +68,9 @@ If you want to use this app, there are a few things you’ll need to do.
 19. Replace `insert CLIENT_ID` in [AppDelegate.swift]() with your client ID.
 20. Close the project
 
-
 ### Set Up Yelp Authentication
 1. Get API key at https://www.yelp.com/developers/v3/manage_app
 2. Replace line 18 of [FindRestaurantViewController.swift]() with your API key that you received from Yelp
-
 
 ### Run the project
 You’ll need to run pod install before running it every time. 
