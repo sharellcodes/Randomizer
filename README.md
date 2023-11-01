@@ -59,7 +59,7 @@ If you want to use this app, there are a few things you’ll need to do.
 10. Name it whatever you would like. Randomizer probably makes the most sense.
 11. Use `sharell-codes.Randomizer` for the Bundle ID, then click Create
 12. Navigate back to https://console.cloud.google.com/apis/credentials. Under “Actions” for the appropriate OAuth Client, click “Download OAuth Client”. Then, click “DOWNLOAD PLIST”
-13. Download [Randomizer Public.zip]()
+13. Download [Randomizer Public.zip](https://github.com/sharellcodes/Randomizer/blob/main/Randomizer%20Public.zip)
 14. Open your terminal and run `cd <insert_project_directory>`
 15. Then, run `open Randomizer.xcworkspace`
 16. Click File > Add Files to “Randomizer” …
