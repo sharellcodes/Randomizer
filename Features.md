@@ -1,7 +1,7 @@
 # Features and Functions
 
 ## Summary
-I created this app to practice my general mobile app development skills, my ability to operate with popular APIs, and to continue exercising my general programming skills.
+I created this app to practice my general Swift development skills, my ability to operate with popular APIs, and to continue exercising my general programming skills.
 
 ## Key Feature(s)
 
