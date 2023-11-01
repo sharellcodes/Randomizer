@@ -31,7 +31,7 @@ If you don’t have a preference of a YouTube video or restaurant, click the “
 
 
 ## If You Want to Use the App
-**Because this can get a little complicated to set up, I suggest just looking at my code and [demo video](). I am unable to add test users directly to my Google Cloud project because of quota reasons.**
+**Because this can get a little complicated to set up, I suggest just looking at my code and [demo video](https://github.com/sharellcodes/Randomizer/blob/main/Randomizer%20Demo%20-%20480p.mov). I am unable to add test users directly to my Google Cloud project because of quota reasons.**
 
 If you want to use this app, there are a few things you’ll need to do.
 
