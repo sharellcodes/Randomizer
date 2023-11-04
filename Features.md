@@ -45,8 +45,10 @@ I created this app to practice my general Swift development skills, my ability t
   <img width="850" alt="storyboard navigation" src="https://github.com/sharellcodes/Randomizer/assets/123710848/a7ad2a0f-fbbd-4729-a6e8-d8ff30a2c6dd">
   
 
-- [Codable structs for parsing JSON data from Yelp]()
+- Codable structs for parsing JSON data from Yelp
+  [[1]](https://github.com/sharellcodes/Randomizer/blob/main/Randomizer%20Public/FindRestaurantViewController.swift#L64)
   <img width="825" alt="codable struct I" src="https://github.com/sharellcodes/Randomizer/assets/123710848/de592585-0ae2-4542-9e25-a9843560a005">
+  [[2]](https://github.com/sharellcodes/Randomizer/blob/main/Randomizer%20Public/FindRestaurantViewController.swift#L113)
   <img width="293" alt="codable struct II" src="https://github.com/sharellcodes/Randomizer/assets/123710848/7b1ca377-ecb2-4230-8472-f5e16f2a79a0">
 
 
