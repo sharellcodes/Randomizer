@@ -61,13 +61,14 @@ If you want to use this app, there are a few things you’ll need to do.
 11. Use `sharell-codes.Randomizer` for the Bundle ID, then click Create
 12. Navigate back to https://console.cloud.google.com/apis/credentials. Under “Actions” for the appropriate OAuth Client, click “Download OAuth Client”. Then, click “DOWNLOAD PLIST”
 13. Download [Randomizer Public.zip](https://github.com/sharellcodes/Randomizer/blob/main/Randomizer%20Public.zip)
-14. Open your terminal and run `cd <insert_project_directory>`
-15. Then, run `open Randomizer.xcworkspace`
-16. Click File > Add Files to “Randomizer” …
-17. Locate the Google PLIST file you downloaded earlier and select it. Then, click “Options”, and select “Copy Items if needed”, “Create Folder References”, and select all boxes for “Add To Targets”. Then Click Add
-18. Replace `insert CLIENT_ID` and `insert REVERSED_CLIENT_ID` in the [info plist](). You can find these values in the Google PLIST.
-19. Replace `insert CLIENT_ID` in [AppDelegate.swift]() with your client ID.
-20. Close the project
+14. Find the folder and unzip it.
+15. Open your terminal and run `cd <insert_project_directory>`
+16. Then, run `open Randomizer.xcworkspace`
+17. Click File > Add Files to “Randomizer” …
+18. Locate the Google PLIST file you downloaded earlier and select it. Then, click “Options”, and select “Copy Items if needed”, “Create Folder References”, and select all boxes for “Add To Targets”. Then Click Add
+19. Replace `insert CLIENT_ID` and `insert REVERSED_CLIENT_ID` in the [info plist](). You can find these values in the Google PLIST.
+20. Replace `insert CLIENT_ID` in [AppDelegate.swift]() with your client ID.
+21. Close the project
 
 ### Set Up Yelp Authentication
 1. Get API key at https://www.yelp.com/developers/v3/manage_app
