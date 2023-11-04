@@ -51,8 +51,9 @@ If you want to use this app, there are a few things you’ll need to do.
    2. I have “User Support Email” set to my own email
    3. I have nothing for App Logo or App Domain
    4. I have “Developer Contact Information” set to my own email
-   5. I only no scopes for this project
-   6. I have my own username as a Test User
+   5. Click "Save and Continue"
+   6. I have no scopes for this project
+   7. I have my own username as a Test User
 7. Click the “Credentials” tab on the left side
 8. Select “Create Credentials” at the top, then click “OAuth client ID”
 9. Select iOS as the application type
