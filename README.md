@@ -66,7 +66,7 @@ If you want to use this app, there are a few things you’ll need to do.
 16. Then, run `open Randomizer.xcworkspace`
 17. Click File > Add Files to “Randomizer” …
 18. Locate the Google PLIST file you downloaded earlier and select it. Then, click “Options”, and select “Copy Items if needed”, “Create Folder References”, and select all boxes for “Add To Targets”. Then Click Add
-19. Replace `insert CLIENT_ID` and `insert REVERSED_CLIENT_ID` in the [info plist](). You can find these values in the Google PLIST.
+19. Replace the `insert CLIENT_ID` and `insert REVERSED_CLIENT_ID` values in info.plist. The place to insert the reversed client ID is specifically under Information Property List > URL Types > Item 1 > URL Schemes > Item 0. You can find these values in the Google PLIST.
 20. Replace `insert CLIENT_ID` in [AppDelegate.swift]() with your client ID.
 
 ### Set Up Yelp Authentication
